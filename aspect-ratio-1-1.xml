@@ -37,7 +37,7 @@
          <fontSize>0.0875</fontSize><!-- 42 -->
       </text>
       <carousel name="systemcarousel">
-         <!-- @sg: modifies the carousel -->
+         <!-- NOTES: modifies the carousel -->
          <logoScale>1</logoScale>
          <logoSize>0.6 0.4</logoSize>
          <maxLogoCount>1</maxLogoCount>
@@ -48,10 +48,10 @@
          <size>0 1</size>
       </image>
       <image name="syslogo" extra="true">
-         <!-- @sg: modifies the text logo -->
+         <!-- NOTES: modifies the text logo -->
          <origin>0.5 0.5</origin>
-         <pos>0.5 0.75</pos>
-         <maxSize>0.7 0.5</maxSize>
+         <pos>0.5 0.73</pos>
+         <maxSize>0.75 0.5</maxSize>
          <zIndex>50</zIndex>
          <color>${systemLogoColor}</color>
          <path>./_inc/systems/${system.theme}_logo.png</path>

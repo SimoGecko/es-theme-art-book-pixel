@@ -153,6 +153,7 @@ license:       creative commons CC-BY-NC-SA
       <!-- System View Mask: Multi Artwork -->
       <image name="logo">
          <path>./_inc/systems/_default.png</path>
+         <path>./_inc/pixel/consoles/_default.png</path>
          <path>./_inc/pixel/consoles/${system.theme}.png</path>
       </image>
       <image name="background" extra="true">
