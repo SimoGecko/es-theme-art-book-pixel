@@ -91,6 +91,7 @@ license:       creative commons CC-BY-NC-SA
          <empty>./_inc/images/battery-0-vertical.svg</empty>
          <incharge>./_inc/images/battery-charging-vertical.svg</incharge>
          <networkIcon>./_inc/images/wifi-vertical.svg</networkIcon>
+         <pos>0.5 0.5</pos>
       </batteryIndicator>
    </view>
 
@@ -152,13 +153,12 @@ license:       creative commons CC-BY-NC-SA
       <!-- System View Mask: Multi Artwork -->
       <image name="logo">
          <path>./_inc/systems/_default.png</path>
-         <path>./_inc/systems/${system.theme}.png</path>
-         <color>ffffffcc</color>
-         <saturation>${systemArtSaturation}</saturation>
+         <path>./_inc/pixel/consoles/${system.theme}.png</path>
       </image>
       <image name="background" extra="true">
-         <color>000000</color>
+         <path>./_inc/bg.png</path>
       </image>
+
    </view>
 
    <view name="basic,detailed,video">

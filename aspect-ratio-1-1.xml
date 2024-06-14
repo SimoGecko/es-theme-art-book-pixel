@@ -6,11 +6,11 @@
          <size>0.978125 0.05</size><!-- 626 32 -->
       </batteryIndicator>
       <text name="clock">
-         <pos>0.5775 0.03125</pos>
+         <pos>0.025 0.025</pos>
          <size>0.4 0.05</size>
          <textColor>eeeeee77</textColor>
          <fontSize>0.03</fontSize>
-         <alignment>right</alignment>
+         <alignment>left</alignment>
          <verticalAlignment>center</verticalAlignment>
          <color>ffffff</color>
       </text>
@@ -37,25 +37,26 @@
          <fontSize>0.0875</fontSize><!-- 42 -->
       </text>
       <carousel name="systemcarousel">
+         <!-- @sg: modifies the carousel -->
          <logoScale>1</logoScale>
-         <logoSize>0.7 0.5</logoSize>
+         <logoSize>0.6 0.4</logoSize>
          <maxLogoCount>1</maxLogoCount>
-      </carousel>
-      <carousel name="systemcarousel">
-         <logoSize>1.025 1.025</logoSize>
-         <maxLogoCount>3</maxLogoCount>
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.4</pos>
       </carousel>
       <image ifSubset="system-view-style:fullscreen-custom" name="system-art" extra="true">
          <size>0 1</size>
       </image>
       <image name="syslogo" extra="true">
+         <!-- @sg: modifies the text logo -->
          <origin>0.5 0.5</origin>
-         <pos>0.5 0.5</pos>
+         <pos>0.5 0.75</pos>
          <maxSize>0.7 0.5</maxSize>
          <zIndex>50</zIndex>
          <color>${systemLogoColor}</color>
          <path>./_inc/systems/${system.theme}_logo.png</path>
          <path>./_inc/systems/${system.theme}.svg</path>
+         <path>./_inc/pixel/logos/${system.theme}.png</path>
       </image>
       <text name="systemInfo">
          <zIndex>44</zIndex>       
