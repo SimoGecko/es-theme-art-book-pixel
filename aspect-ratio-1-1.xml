@@ -2,33 +2,31 @@
    <formatVersion>7</formatVersion>
    <view name="screen">
       <batteryIndicator name="batteryIndicator">
-         <pos>0.0325 0.03125</pos><!-- 0 15 -->
+         <pos>0.0 0.02</pos><!-- 0 15 -->
          <size>0.978125 0.05</size><!-- 626 32 -->
+         <textColor>ffffff22</textColor>
+         <iconColor>ffffff22</iconColor>
       </batteryIndicator>
       <text name="clock">
-         <pos>0.025 0.025</pos>
+         <pos>0.025 0.015</pos>
+         <origin>0 0</origin>
          <size>0.4 0.05</size>
-         <textColor>eeeeee77</textColor>
-         <fontSize>0.03</fontSize>
+         <textColor>ffffff</textColor>
+         <fontSize>0.04</fontSize>
          <alignment>left</alignment>
          <verticalAlignment>center</verticalAlignment>
          <color>ffffff</color>
       </text>
-      <helpsystem name="help">
-         <z-index>55</z-index>
-         <textColor>eeeeee</textColor>
-         <iconColor>eeeeee</iconColor>
-         <origin>0 0</origin>
-         <pos>1 1</pos>
-      </helpsystem>
    </view>
 
    <view name="system,basic,detailed,video">s
       <helpsystem name="help">
-         <textColor>eeeeee</textColor>
-         <iconColor>eeeeee</iconColor>
-         <origin>0 0</origin>
-         <pos>1 1</pos>
+         <!-- NOTES: the help menu -->
+         <z-index>55</z-index>
+         <textColor>ffffff22</textColor>
+         <iconColor>ffffff22</iconColor>
+         <origin>0.5 1</origin>
+         <pos>0.5 0.98</pos>
       </helpsystem>
    </view>
 
@@ -37,7 +35,7 @@
          <fontSize>0.0875</fontSize><!-- 42 -->
       </text>
       <carousel name="systemcarousel">
-         <!-- NOTES: modifies the carousel -->
+         <!-- NOTES: the main carousel with system images -->
          <logoScale>1</logoScale>
          <logoSize>0.6 0.4</logoSize>
          <maxLogoCount>1</maxLogoCount>
@@ -48,7 +46,7 @@
          <size>0 1</size>
       </image>
       <image name="syslogo" extra="true">
-         <!-- NOTES: modifies the text logo -->
+         <!-- NOTES: the text logo images -->
          <origin>0.5 0.5</origin>
          <pos>0.5 0.73</pos>
          <maxSize>0.75 0.5</maxSize>
@@ -59,18 +57,16 @@
          <path>./_inc/pixel/logos/${system.theme}.png</path>
       </image>
       <text name="systemInfo">
-         <zIndex>44</zIndex>       
+         <!-- NOTES: the 'X games' text -->
+         <zIndex>44</zIndex>
          <pos>0.0 0.91125</pos>
          <backgroundColor>00000000</backgroundColor>
-         <color>ffffff</color>
-	      <fontSize>0.02</fontSize>
-         <zIndex>44</zIndex>	     
-      </text>     
-      <helpsystem name="help">
-         <textColor>eeeeee</textColor>
-         <iconColor>eeeeee</iconColor>
-         <z-index>55</z-index>
-      </helpsystem>
+         <color>ffffffcc</color>
+	      <fontSize>0.04</fontSize>
+         <zIndex>44</zIndex>
+         <origin>0.5 1</origin>
+         <pos>0.5 0.93</pos>
+      </text>
    </view>
 
    <view name="basic,detailed,video">
