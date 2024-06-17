@@ -1,14 +1,12 @@
 # Art Book Pixel
 
-This is a modified Art Book Next theme for JelOS/Rocknix, forked from https://github.com/nkahoang/es-theme-art-book-next-arkos using images from https://github.com/Jetup13/es-theme-pixel. Only the POWKIDDY RGB30 (screen aspect ratio 1:1) is supported currently.
+This is a modified Art Book Next theme for JelOS/Rocknix, forked from [es-theme-art-book-next-arkos](https://github.com/nkahoang/es-theme-art-book-next-arkos) using images from [es-theme-pixel](https://github.com/Jetup13/es-theme-pixel). Only the POWKIDDY RGB30 (screen aspect ratio 1:1) is supported currently.
 
 You can follow the changes in `aspect-ratio-1-1.xml` if you would like to port this for other devices. Welcome any PR.
 
-## Screenshot
 ![Screenshot](screenshot.png)
 
-## Instructions
-
+## Installation instructions
 To install this:
 - Go to https://github.com/SimoGecko/es-theme-art-book-pixel, click on Code -> Download ZIP
 - Extract that zip to a folder named `es-theme-art-book-pixel`.
@@ -16,7 +14,7 @@ To install this:
 - Enable the theme via EmulationStation settings (Start button) > UI Settings > `es-theme-art-book-pixel`
 - Select aspect ratio (1:1), because the other aspect ratio isn't supported yet.
 
-### **Acknowledgments**
+## **Acknowledgments**
 * Original forked theme with respective acknowledgements: https://github.com/nkahoang/es-theme-art-book-next-arkos
 * Pixel-art images for systems and logos: https://github.com/Jetup13/es-theme-pixel
 
